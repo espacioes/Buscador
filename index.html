@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Buscador</title>
+	<link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- https://material.io/tools/icons/?style=baseline -->
+	<meta charset="utf-8">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+	<img src="img/logo.png" />
+	<form action="http://www.google.com/search" autocomplete="off" method="get">
+		<input type="text" align="center" id="busqueda" name="q" required oninvalid="this.setCustomValidity(' ')" oninput="setCustomValidity('')"> <!-- this.setCustomValidity('Mensaje') -->
+		<button type="submit" value="Buscar" id="boton">
+			<i class="material-icons">search</i>
+		</button>
+	</form>
+</body>
+</html>
