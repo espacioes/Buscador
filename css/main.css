@@ -48,7 +48,7 @@ img {
 	user-select: none;         /* <--- No seleccionable */
 }
 
-form {
+div {
 	margin-top: 20px;
 	width: 400px;
 	height: 40px;
@@ -62,7 +62,7 @@ form {
 	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.20);         /* Sombra 1 izqui-derecha 2 abajo 3 desvanecimiento 4 sombra */
 }
 
-form:hover {
+div:hover {
 	box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.20);         /* Sombra Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 	
